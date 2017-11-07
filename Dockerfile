@@ -33,8 +33,9 @@ ENV CELERYD_CONCURRENCY 1
 # steam key
 #ENV STEAM_API_KEY xxxxxxxx
 
-COPY entrypoint.sh /
-RUN chmod +x /entrypoint.sh
+RUN mkdir -p /var/www/zqb.com/cache
+#COPY entrypoint.sh /
+#RUN chmod +x /entrypoint.sh
 
 EXPOSE 8080
-ENTRYPOINT ["/entrypoint.sh"]
+#ENTRYPOINT ["/entrypoint.sh"]

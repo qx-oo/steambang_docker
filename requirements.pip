@@ -36,3 +36,5 @@ simplejson==3.10.0
 aiohttp==2.0.7
 gunicorn==19.7.1
 gevent==1.2.2
+requests-oauthlib==0.8.0
+
